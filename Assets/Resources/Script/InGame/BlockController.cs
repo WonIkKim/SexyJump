@@ -7,33 +7,13 @@ public class BlockController : MonoBehaviour {
 	// Use this for initialization
 
     [SerializeField]
-    private int StageNum;
+    private int StageNum = 1;
 
-    private string url;
-    private string FieldData;
 	void Start () {
-
-        url = "file:///" + Application.persistentDataPath + "/Stage" + StageNum + ".json";
-        
-        StartCoroutine(DownData());
-
-	}
-
-    private IEnumerator DownData()
-    {
-        WWW www = new WWW(url);
-        yield return www;
-
-        if (!string.IsNullOrEmpty(www.error))
-        {
-            Debug.Log("error : " + www.error);
-            yield break;
-        }
-
-        string jsonString = www.text;
+        TextAsset bindata = Resources.Load("Data/Stage"+StageNum) as TextAsset;
+        string jsonString = bindata.ToString();
         LoadBlockJson(jsonString);
-
-    }
+	}
 
     void LoadBlockJson(string strJson)
     {
@@ -51,7 +31,7 @@ public class BlockController : MonoBehaviour {
             GameObject gameBlock = (GameObject)GameObject.Instantiate(Resources.Load("Prefebs/Blocks/pfBlock_" + type)) as GameObject;
 
             gameBlock.transform.parent = transform;
-            gameBlock.name = "Normal";
+            gameBlock.name = type;
             Vector3 pos = new Vector3(posX,posY,0.5f);
             gameBlock.transform.position = pos;
 

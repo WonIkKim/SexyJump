@@ -1,0 +1,306 @@
+Initialize engine version: 4.6.8f1 (583461196f73)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 470 (ID=0x6cd)
+    Vendor:   NVIDIA
+    VRAM:     1234 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: D:\project\SexyJump\Win\SexyJump_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading D:\project\SexyJump\Win\SexyJump_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: D:\project\SexyJump\Win\SexyJump_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading D:\project\SexyJump\Win\SexyJump_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: D:\project\SexyJump\Win\SexyJump_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading D:\project\SexyJump\Win\SexyJump_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: D:\project\SexyJump\Win\SexyJump_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading D:\project\SexyJump\Win\SexyJump_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: D:\project\SexyJump\Win\SexyJump_Data\Managed\ICSharpCode.SharpZipLib.dll (this message is harmless)
+Loading D:\project\SexyJump\Win\SexyJump_Data\Managed\ICSharpCode.SharpZipLib.dll into Unity Child Domain
+- Completed reload, in  0.045 seconds
+desktop: 1680x1050 60Hz; virtual: 3600x1200 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+Platform assembly: D:\project\SexyJump\Win\SexyJump_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: D:\project\SexyJump\Win\SexyJump_Data\Managed\System.dll (this message is harmless)
+Vector3.up : (0.0, 1.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:92)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 92)
+
+jumpForce : 20000
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:93)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 93)
+
+jumpAddForce : 3.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:94)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 94)
+
+Time.fixedDeltaTime : 0.02
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:95)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 95)
+
+AddForce : (0.0, 1400.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:96)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 96)
+
+Vector3.up : (0.0, 1.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:92)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 92)
+
+jumpForce : 20000
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:93)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 93)
+
+jumpAddForce : 2.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:94)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 94)
+
+Time.fixedDeltaTime : 0.02
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:95)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 95)
+
+AddForce : (0.0, 1000.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:96)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 96)
+
+Vector3.up : (0.0, 1.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:92)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 92)
+
+jumpForce : 20000
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:93)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 93)
+
+jumpAddForce : 4.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:94)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 94)
+
+Time.fixedDeltaTime : 0.02
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:95)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 95)
+
+AddForce : (0.0, 1800.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:96)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 96)
+
+Vector3.up : (0.0, 1.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:92)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 92)
+
+jumpForce : 20000
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:93)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 93)
+
+jumpAddForce : 4.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:94)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 94)
+
+Time.fixedDeltaTime : 0.02
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:95)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 95)
+
+AddForce : (0.0, 1800.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:96)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 96)
+
+Vector3.up : (0.0, 1.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:92)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 92)
+
+jumpForce : 20000
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:93)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 93)
+
+jumpAddForce : 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:94)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 94)
+
+Time.fixedDeltaTime : 0.02
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:95)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 95)
+
+AddForce : (0.0, 800.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:96)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 96)
+
+Vector3.up : (0.0, 1.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:92)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 92)
+
+jumpForce : 20000
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:93)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 93)
+
+jumpAddForce : 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:94)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 94)
+
+Time.fixedDeltaTime : 0.02
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:95)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 95)
+
+AddForce : (0.0, 800.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:96)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 96)
+
+Vector3.up : (0.0, 1.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:92)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 92)
+
+jumpForce : 20000
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:93)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 93)
+
+jumpAddForce : 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:94)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 94)
+
+Time.fixedDeltaTime : 0.02
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:95)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 95)
+
+AddForce : (0.0, 800.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:96)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 96)
+
+Vector3.up : (0.0, 1.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:92)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 92)
+
+jumpForce : 20000
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:93)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 93)
+
+jumpAddForce : 2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:94)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 94)
+
+Time.fixedDeltaTime : 0.02
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:95)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 95)
+
+AddForce : (0.0, 800.0, 0.0)
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+CharController:FixedUpdate() (at D:\project\SexyJump\Assets\Resources\Script\InGame\CharController.cs:96)
+ 
+(Filename: D:/project/SexyJump/Assets/Resources/Script/InGame/CharController.cs Line: 96)
+
+Waiting for finish

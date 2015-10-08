@@ -3,21 +3,19 @@ using System.Collections;
 
 public class InitGround : MonoBehaviour {
 
-    private Vector3 itSelfPos;
 	// Use this for initialization
     SpriteRenderer spriteRenderer;
 	void Start () {
 
         spriteRenderer = GetComponent<SpriteRenderer>();
 
-        GameObject goWall = (GameObject)GameObject.Instantiate(Resources.Load("Prefebs/pfWall")) as GameObject;
+        GameObject goWall = (GameObject)GameObject.Instantiate(Resources.Load("Prefebs/Background/pfWall")) as GameObject;
         SpriteRenderer wallSR = goWall.GetComponent<SpriteRenderer>();
 
         float GroundWidth = spriteRenderer.sprite.rect.width;
         float GroundHeight = spriteRenderer.sprite.rect.height;
         float GroundX = GroundWidth * 0.5f * 0.01f * -1.0f;
         float GroundY = GroundHeight * 0.5f * 0.01f ;
-        float WallWidth = wallSR.sprite.rect.width;
         float WallHeight = wallSR.sprite.rect.height;
         
 

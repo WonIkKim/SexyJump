@@ -7,7 +7,7 @@ public class UIController : MonoBehaviour {
     private float IndexGage = 0;
 
     private Image GageImage;
-    private bool isGageAni = false;
+    //private bool isGageAni = false;
 
     void Start()
     {

@@ -21,6 +21,20 @@ public class GameCamera : MonoBehaviour {
         }
     }
 
+    /*
+    void OnCollisionStay2D(Collision2D coll)
+    {
+        if (coll.gameObject.CompareTag("Ground") || coll.gameObject.CompareTag("Block"))
+        {
+            // 점프 중이면 랜딩처리
+            if (GetCurrentJumpStatus() == CharacterJumpState.JUMPING_DOWN)
+            {
+                ChangeJumpStatus(CharacterJumpState.NORMAL);
+                mainController.SetUIGage(0);
+            }
+        }
+    }
+    */
     private float IncrementTowards(float n, float target, float a)
     {
         if (n == target)
