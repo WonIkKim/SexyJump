@@ -11,6 +11,11 @@ public class GameCamera : MonoBehaviour {
         target = t;
     }
 
+    public void removeTarget()
+    {
+        target = null;
+    }
+
     void LateUpdate()
     {
         if (target)

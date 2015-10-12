@@ -39,6 +39,7 @@ public class UIController : MonoBehaviour {
 
     IEnumerator GageAni()
     {
+        WaitForSeconds tmps = new WaitForSeconds(.1f);
         for (; ; )
         {
             IndexGage += 0.1f;
@@ -48,7 +49,7 @@ public class UIController : MonoBehaviour {
             }
 
             GageImage.fillAmount = IndexGage;
-            yield return new WaitForSeconds(.1f);
+            yield return tmps;
         }
 
     }

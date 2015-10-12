@@ -22,7 +22,7 @@ public enum BlockType
 public class CharController : MonoBehaviour {
 
     //private Transform CharTransform = null;
-    protected Animator animator;
+    protected Animator animator = null;
 
     //Character Status
     private CharacterJumpState jumpStatus;
@@ -45,6 +45,16 @@ public class CharController : MonoBehaviour {
         animator.SetFloat("DirectX", -1);
     }
 
+    public void setInitAni(Animator ani)
+    {
+        ani.SetFloat("DirectX", 0);
+        ani.SetFloat("DirectY", 0);
+    }
+
+    public void setGravity(float g)
+    {
+        rigidbody2D.gravityScale = g;
+    }
     void Start()
     {
         mainController = GameObject.Find("GameControll").GetComponent<MainController>();
@@ -75,16 +85,18 @@ public class CharController : MonoBehaviour {
 
     void FixedUpdate()
     {
-
-        if (isLeft)
+        if (animator != null)
         {
-            animator.SetFloat("DirectX", -1);
-            transform.Translate(Vector3.left * speed * Time.fixedDeltaTime);
-        }
-        else
-        {
-            animator.SetFloat("DirectX", 1);
-            transform.Translate(Vector3.right * speed * Time.fixedDeltaTime);
+            if (isLeft)
+            {
+                animator.SetFloat("DirectX", -1);
+                transform.Translate(Vector3.left * speed * Time.fixedDeltaTime);
+            }
+            else
+            {
+                animator.SetFloat("DirectX", 1);
+                transform.Translate(Vector3.right * speed * Time.fixedDeltaTime);
+            }
         }
 
         if (GetCurrentJumpStatus() == CharacterJumpState.START_JUMP)

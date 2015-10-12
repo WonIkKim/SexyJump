@@ -22,20 +22,24 @@ public class BlockController : MonoBehaviour {
 
         JSONArray ArBlock = N["blocks"].AsArray;
 
+        GameObject normalBlock = (GameObject)GameObject.Instantiate(Resources.Load("Prefebs/Blocks/pfBlock_Normal")) as GameObject;
+
         for (int i = 0; i < ArBlock.Count; i++)
         {
             string type = ArBlock[i]["type"];
             float posX = ArBlock[i]["posX"].AsFloat;
             float posY = ArBlock[i]["posY"].AsFloat;
 
-            GameObject gameBlock = (GameObject)GameObject.Instantiate(Resources.Load("Prefebs/Blocks/pfBlock_" + type)) as GameObject;
+            GameObject gameBlock = (GameObject)GameObject.Instantiate(normalBlock) as GameObject;
 
             gameBlock.transform.parent = transform;
             gameBlock.name = type;
-            Vector3 pos = new Vector3(posX,posY,0.5f);
+            Vector3 pos = new Vector3(transform.position.x + posX,transform.position.y + posY,0.5f);
             gameBlock.transform.position = pos;
 
         }
+
+        Destroy(normalBlock);
 
     }
 

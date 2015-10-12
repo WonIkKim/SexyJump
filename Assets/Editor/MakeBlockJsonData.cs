@@ -19,7 +19,7 @@ public class MakeBlockJsonData {
         JSONNode node = JSON.Parse(seedString);
         
         Transform[] arTF = tf.GetComponentsInChildren<Transform>();
-        for (int i = 0; i < arTF.Length; i++)
+        for (int i = 1; i < arTF.Length; i++)
         {
             Transform subtf = arTF[i];
 
